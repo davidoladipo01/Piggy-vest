@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link a {
+    text-decoration: none;
+    color: #3e5061;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Jakarta (ttf);
+}
+.btn-group{
+    list-style-type: none;
+}
