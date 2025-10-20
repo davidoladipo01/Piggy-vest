@@ -26,6 +26,7 @@ body,html {
         right: 8px;
     }
 }
+
 .dropdown-menu>div img {
     position: relative;
     object-fit: contain;
@@ -37,14 +38,16 @@ body,html {
     color: #000;
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: -5px;}
+    margin-bottom: -5px;
+}
 
 .dropdown-menu>div a {
     display: flex;
     align-items: center;
     padding: 10.5px 8px;
     font-size: 14px;
-    white-space: nowrap;}
+    white-space: nowrap;
+}
 
 .btn1 {
     color: #0c1825;
@@ -56,17 +59,20 @@ body,html {
     font-weight: 600;
     white-space: nowrap;
 }
-.images{
+
+.images {
     position: relative;
     object-fit: contain;
     width: 40px;
     margin-right: 10px;
 }
-.menugrid1{
+
+.menugrid1 {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
-.ss{
+
+.ss {
     padding: 15px 54px;
 }
 
