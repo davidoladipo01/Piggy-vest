@@ -13,11 +13,15 @@
         .dropdown-toggle::after {
             display: none !important;
         }
+
+        body {
+            background-color: #f2f7f8;
+        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top shadow z-3" style="background-color: white;">
         <div class="container-fluid d-flex align-items-center group w-100">
             <a class="navbar-brand brand ms-lg-5 p-lg-2" href="">
                 <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/logo_08e6965627/logo_08e6965627.svg"
@@ -115,7 +119,7 @@
                             <div class="menugrid1 d-grid gap-4 p-3">
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTBFRkZGIi8+CjxwYXRoIGQ9Ik0yMC41IDIyLjc1VjI5LjI1QzIwLjUgMzEuNDE2NyAyMS41ODMzIDMyLjUgMjMuNzUgMzIuNUgzMC4yNUMzMi40MTY3IDMyLjUgMzMuNSAzMS40MTY3IDMzLjUgMjkuMjVWMjZDMzMuNSAyNS4zNSAzMy4wNjY3IDI0LjkxNjcgMzIuNDE2NyAyNC45MTY3QzMxLjc2NjcgMjQuOTE2NyAzMS4zMzMzIDI0LjQ4MzMgMzEuMzMzMyAyMy44MzMzVjIyLjc1QzMxLjMzMzMgMjAuNTgzMyAzMC4yNSAxOS41IDI4LjA4MzMgMTkuNUgyMy43NUMyMS41ODMzIDE5LjUgMjAuNSAyMC41ODMzIDIwLjUgMjIuNzVaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPHBhdGggZD0iTTI0LjgzMzQgMjMuODMzM0gyN00yNC44MzM0IDI4LjE2NjZIMjkuMTY2NyIgc3Ryb2tlPSIjMEQ2MEQ4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTMwLjI1IDM2LjgzMzRIMjMuNzVDMTguMzMzMyAzNi44MzM0IDE2LjE2NjYgMzQuNjY2NyAxNi4xNjY2IDI5LjI1MDFWMjIuNzUwMUMxNi4xNjY2IDE3LjMzMzQgMTguMzMzMyAxNS4xNjY3IDIzLjc1IDE1LjE2NjdIMzAuMjVDMzUuNjY2NiAxNS4xNjY3IDM3LjgzMzMgMTcuMzMzNCAzNy44MzMzIDIyLjc1MDFWMjkuMjUwMUMzNy44MzMzIDM0LjY2NjcgMzUuNjY2NiAzNi44MzM0IDMwLjI1IDM2LjgzMzRaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTBFRkZGIi8+CjxwYXRoIGQ9Ik0yMC41IDIyLjc1VjI5LjI1QzIwLjUgMzEuNDE2NyAyMS41ODMzIDMyLjUgMjMuNzUgMzIuNUgzMC4yNUMzMi40MTY3IDMyLjUgMzMuNSAzMS40MTY3IDMzLjUgMjkuMjVWMjZDMzMuNSAyNS4zNSAzMy4wNjY3IDI0LjkxNjcgMzIuNDE2NyAyNC45MTY3QzMxLjc2NjcgMjQuOTE2NyAzMS4zMzMzIDI0LjQ4MzMgMzEuMzMzMyAyMy44MzMzVjIyLjc1QzMxLjMzMzMgMjAuNTgzMyAzMC4yNSAxOS41IDI4LjA4MzMgMTkuNUgyMy43NUMyMS41ODMzIDE5LjUgMjAuNSAyMC41ODMzIDIwLjUgMjIuNzVaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPHBhdGggZD0iTTI0LjgzMzQgMjMuODMzM0gyN00yNC44MzM0IDI4LjE2NjZIMjkuMTY2N7Igc3Ryb2tlPSIjMEQ2MEQ4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTMwLjI1IDM2LjgzMzRIMjMuNzVDMTguMzMzMyAzNi44MzM0IDE2LjE2NjYgMzQuNjY2NyAxNi4xNjY2IDI5LjI1MDFWMjIuNzUwMUMxNi4xNjY2IDE3LjMzMzQgMTguMzMzMyAxNS4xNjY3IDIzLjc1IDE1LjE2NjdIMzAuMjVDMzUuNjY2NiAxNS4xNjY3IDM3LjgzMzMgMTcuMzMzNCAzNy44MzMzIDIyLjc1MDFWMjkuMjUwMUMzNy44MzMzIDM0LjY2NjcgMzUuNjY2NiAzNi44MzM0IDMwLjI1IDM2LjgzMzRaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=="
                                         width="40px" alt="">
                                     <div>
                                         <span class="">Blog</span>
@@ -124,7 +128,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0ZGRjFGOSIvPgo8cGF0aCBkPSJNMjEuNDQ1IDExLjYzNDhIMTQuOTA1QzE0LjAwNTggMTEuNjM0OCAxMy4yNyAxMi4zNzA1IDEzLjI3IDEzLjI2OThWMjYuMzQ5OEMxMy4yNyAyNy4yNDkgMTQuMDA1OCAyNy45ODQ4IDE0LjkwNSAyNy45ODQ4SDI0LjcxNUMyNS42MTQzIDI3Ljk4NDggMjYuMzUgMjcuMjQ5IDI2LjM1IDI2LjM0OThWMTYuNTM5OEwyMS40NDUgMTEuNjM0OFpNMjQuNzE1IDI2LjM0OThIMTQuOTA1VjEzLjI2OThIMjAuNjI3NVYxNy4zNTczSDI0LjcxNVYyNi4zNDk4Wk0xNy4zNTc1IDIwLjYyNzNWMjUuNTMyM0gxNS43MjI1VjIwLjYyNzNIMTcuMzU3NVpNMjIuMjYyNSAyMi4yNjIzVjI1LjUzMjNIMjMuODk3NVYyMi4yNjIzSDIyLjI2MjVaTTE4Ljk5MjUgMTguOTkyM1YyNS41MzIzSDIwLjYyNzVWMTguOTkyM0gxOC45OTI1WiIgZmlsbD0iI0U1NDg5QiIvPgo8L3N2Zz4K"
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0ZGRjFGOSIvPgo8cGF0aCBkPSJNMjEuNDQ1IDExLjYzNDhIMTQuOTA1QzE0LjAwNTggMTEuNjM0OCAxMy4yNyAxMi4zNzA1IDEzLjI3IDEzLjI2OThWMjYuMzQ5OEMxMy4yNyAyNy4yNDkgMTQuMDA1OCAyNy45ODQ4IDE0LjkwNSAyNy45ODQ4SDI0LjcxNUMyNS42MTQzIDI3Ljk4NDggMjYuMzUgMjcuMjQ5IDI2LjM1IDI2LjM0OThWMTYuNTM5OEwyMS40NDUgMTEuNjM0OFpNMjQuNzE1IDI2LjM0OThIMTQuOTA1VjEzLjI2OThIMjAuNjI3NVYxNy4zNTczSDI0LjcxNVYyNi4zNDk4Wk0xNy4zNTc1IDIwLjYyNzNWMjUuNTMyM0gxNS43MjI1VjIwLjYyNzNIMTcuMzU3NVpNMjIuMjYyNSAyMi4yNjIzVjI1LjUzMjNIMjMuODk3NVYyMi4yNjIzSDIyLjI2MjVaTTE4Ljk5MjUgMTguOTkyM1YyNS41MzIzSDIwLjYyNzVWMTguOTkyM0gxOC45OTI1WiIgZmlsbD0iI0U1NDg5QiIvPgo8L3N2Zz4K"
                                         alt="">
                                     <div>
                                         <span>Reports</span>
@@ -133,7 +137,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0NERkZGNSIvPgo8cGF0aCBkPSJNMjAuNjk3IDI0Ljk4OTNWMTQuNjMxNkgxNi45MTZWMjQuOTg5M00yMC42OTcgMjQuOTg5M0gxNi45MTZNMjAuNjk3IDI0Ljk4OTNWMjcuMTY4QzIwLjY5NyAyNy4zMjk1IDIwLjYzMjggMjcuNDg0NCAyMC41MTg2IDI3LjU5ODZDMjAuNDA0NCAyNy43MTI4IDIwLjI0OTUgMjcuNzc3IDIwLjA4NzkgMjcuNzc3SDE3LjUyNTFDMTcuNDQ1MSAyNy43NzcgMTcuMzY1OSAyNy43NjEzIDE3LjI5MiAyNy43MzA2QzE3LjIxODEgMjcuNyAxNy4xNTEgMjcuNjU1MiAxNy4wOTQ0IDI3LjU5ODZDMTcuMDM3OSAyNy41NDIxIDE2Ljk5MyAyNy40NzQ5IDE2Ljk2MjQgMjcuNDAxQzE2LjkzMTggMjcuMzI3MSAxNi45MTYgMjcuMjQ3OSAxNi45MTYgMjcuMTY4VjI0Ljk4OTNNMTYuOTE2IDI0Ljk4OTNWMTUuOTk2OEgxMi43MDE4TTE2LjkxNiAyNC45ODkzSDEyLjcwMThNMTYuOTE2IDI0Ljk4OTNWMjcuMDk0NEMxNi45MTYgMjcuMjc2NSAxNi44NDM3IDI3LjQ1MTIgMTYuNzE0OSAyNy41OEMxNi41ODYxIDI3LjcwODcgMTYuNDExNSAyNy43ODExIDE2LjIyOTMgMjcuNzgxMUgxMy4zNjgxQzEzLjE4NiAyNy43ODExIDEzLjAxMTMgMjcuNzA4NyAxMi44ODI1IDI3LjU4QzEyLjc1MzcgMjcuNDUxMiAxMi42ODE0IDI3LjI3NjUgMTIuNjgxNCAyNy4wOTQ0TDEyLjcwMTggMjQuOTg5M00yMS4wMzYyIDE3LjU5MUwyNS4zODUzIDE2Ljg5MkwyNS4wNjI0IDE0Ljg0ODJDMjUuMDMyMyAxNC42NjE0IDI0LjkyOTMgMTQuNDk0MSAyNC43NzYxIDE0LjM4M0MyNC42MjI5IDE0LjI3MTkgMjQuNDMxOSAxNC4yMjYxIDI0LjI0NDkgMTQuMjU1NkwyNC4yNDkgMTQuMjU5NkwyMS4zMDE5IDE0LjcyOTdDMjEuMjA5MyAxNC43NDQxIDIxLjEyMDUgMTQuNzc2NyAyMS4wNDA2IDE0LjgyNThDMjAuOTYwNyAxNC44NzQ4IDIwLjg5MTMgMTQuOTM5MiAyMC44MzY2IDE1LjAxNTNDMjAuNzgxOCAxNS4wOTE0IDIwLjc0MjcgMTUuMTc3NiAyMC43MjE1IDE1LjI2ODlDMjAuNzAwNCAxNS4zNjAyIDIwLjY5NzYgMTUuNDU0OCAyMC43MTMzIDE1LjU0NzJMMjEuMDM2MiAxNy41OTFaTTIxLjAzNjIgMTcuNTkxTDIyLjIzMzkgMjUuMTI0MkwyNi41ODMgMjQuNDM3NU0yMS4wMzYyIDE3LjU5MUwyNS4zODUzIDE2LjkwMDJIMjUuMzgxM0wyNi41ODMgMjQuNDM3NU0yNi41ODMgMjQuNDM3NUwyNi45MSAyNi40ODEzQzI2LjkyNTEgMjYuNTczOSAyNi45MjE4IDI2LjY2ODYgMjYuOTAwMSAyNi43NkMyNi44Nzg1IDI2Ljg1MTMgMjYuODM5IDI2LjkzNzUgMjYuNzgzOSAyNy4wMTM0QzI2LjcyODggMjcuMDg5NCAyNi42NTkyIDI3LjE1MzggMjYuNTc5MSAyNy4yMDI4QzI2LjQ5OSAyNy4yNTE3IDI2LjQxIDI3LjI4NDQgMjYuMzE3MyAyNy4yOTg4TDIzLjM3MDIgMjcuNzY4OEMyMy4xODMzIDI3Ljc5ODMgMjIuOTkyMyAyNy43NTI0IDIyLjgzOSAyNy42NDE0QzIyLjY4NTggMjcuNTMwMyAyMi41ODI4IDI3LjM2MyAyMi41NTI3IDI3LjE3NjFMMjIuMjI5OCAyNS4xMzI0TDI2LjU3ODkgMjQuNDQxNkwyNi41ODMgMjQuNDM3NVpNMTIuNzAxOCAxNS45OTY4SDE2LjkzNjVWMTMuODkxOEMxNi45MzY1IDEzLjcwOTYgMTYuODY0MSAxMy41MzUgMTYuNzM1NCAxMy40MDYyQzE2LjYwNjYgMTMuMjc3NCAxNi40MzE5IDEzLjIwNTEgMTYuMjQ5OCAxMy4yMDUxSDEzLjM4ODVDMTMuMjA2NCAxMy4yMDUxIDEzLjAzMTcgMTMuMjc3NCAxMi45MDMgMTMuNDA2MkMxMi43NzQyIDEzLjUzNSAxMi43MDE4IDEzLjcwOTYgMTIuNzAxOCAxMy44OTE4VjE1Ljk5NjhaTTEyLjcwMTggMTUuOTk2OFYyNC45ODkzTTE3LjUyNTEgMTEuODM5OEgyMC4wODc5QzIwLjE2ODMgMTEuODM5OCAyMC4yNDc4IDExLjg1NTcgMjAuMzIyIDExLjg4NjZDMjAuMzk2MSAxMS45MTc1IDIwLjQ2MzQgMTEuOTYyNyAyMC41MjAxIDEyLjAxOTdDMjAuNTc2NyAxMi4wNzY3IDIwLjYyMTQgMTIuMTQ0MyAyMC42NTE4IDEyLjIxODZDMjAuNjgyMiAxMi4yOTMgMjAuNjk3NSAxMi4zNzI2IDIwLjY5NyAxMi40NTNWMTQuNjM1N0gxNi45MTZWMTIuNDUzQzE2LjkxNTUgMTIuMzcyNiAxNi45MzA5IDEyLjI5MyAxNi45NjEyIDEyLjIxODZDMTYuOTkxNiAxMi4xNDQzIDE3LjAzNjQgMTIuMDc2NyAxNy4wOTMgMTIuMDE5N0MxNy4xNDk2IDExLjk2MjcgMTcuMjE2OSAxMS45MTc1IDE3LjI5MTEgMTEuODg2NkMxNy4zNjUyIDExLjg1NTcgMTcuNDQ0OCAxMS44Mzk4IDE3LjUyNTEgMTEuODM5OFoiIHN0cm9rZT0iIzAzODg4NiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0NERkZGNSIvPgo8cGF0aCBkPSJNMjAuNjk3IDI0Ljk4OTNWMTQuNjMxNkgxNi45MTZWMjQuOTg5M00yMC42OTcgMjQuOTg5M0gxNi45MTZNMjAuNjk3IDI0Ljk4OTNWMjcuMTY4QzIwLjY5NyAyNy4zMjk1IDIwLjYzMjggMjcuNDg0NCAyMC41MTg2IDI3LjU5ODZDMjAuNDA0NCAyNy43MTI4IDIwLjI0OTUgMjcuNzc3IDIwLjA4NzkgMjcuNzc3SDE3LjUyNTFDMTcuNDQ1MSAyNy43NzcgMTcuMzY1OSAyNy43NjEzIDE3LjI5MiAyNy43MzA2QzE3LjIxODEgMjcuNyAxNy4xNTEgMjcuNjU1MiAxNy4wOTQ0IDI3LjU5ODZDMTcuMDM3OSAyNy41NDIxIDE2Ljk5MyAyNy40NzQ5IDE2Ljk2MjQgMjcuNDAxQzE2LjkzMTggMjcuMzI3MSAxNi45MTYgMjcuMjQ3OSAxNi45MTYgMjcuMTY4VjI0Ljk4OTNNMTYuOTE2IDI0Ljk4OTNWMTUuOTk2OEgxMi43MDE4TTE2LjkxNiAyNC45ODkzSDEyLjcwMThNMTYuOTE2IDI0Ljk4OTNWMjcuMDk0NEMxNi45MTYgMjcuMjc2NSAxNi44NDM3IDI3LjQ1MTIgMTYuNzE0OSAyNy41OEMxNi41ODYxIDI3LjcwODcgMTYuNDExNSAyNy43ODExIDE2LjIyOTMgMjcuNzgxMUgxMy4zNjgxQzEzLjE4NiAyNy43ODExIDEzLjAxMTMgMjcuNzA4NyAxMi44ODI1IDI3LjU4QzEyLjc1MzcgMjcuNDUxMiAxMi42ODE0IDI3LjI3NjUgMTIuNjgxNCAyNy4wOTQ0TDEyLjcwMTggMjQuOTg5M00yMS4wMzYyIDE3LjU5MUwyNS4zODUzIDE2Ljg5MkwyNS4wNjI0IDE0Ljg0ODJDMjUuMDMyMyAxNC42NjE0IDI0LjkyOTMgMTQuNDk0MSAyNC43NzYxIDE0LjM4M0MyNC42MjI5IDE0LjI3MTkgMjQuNDMxOSAxNC4yMjYxIDI0LjI0NDkgMTQuMjU1NkwyNC4yNDkgMTQuMjU5NkwyMS4zMDE5IDE0LjcyOTdDMjEuMjA5MyAxNC43NDQxIDIxLjEyMDUgMTQuNzc2NyAyMS4wNDA2IDE0LjgyNThDMjAuOTYwN7Igc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>Comics</span>
@@ -142,7 +146,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTRGRkYxIi8+CjxwYXRoIGQ9Ik0yNC44MzMzIDM2LjgzMzRIMjkuMTY2N0MzNC41ODMzIDM2LjgzMzQgMzYuNzUgMzQuNjY2NyAzNi43NSAyOS4yNTAxVjIyLjc1MDFDMzYuNzUgMTcuMzMzNCAzNC41ODMzIDE1LjE2NjcgMjkuMTY2NyAxNS4xNjY3SDI0LjgzMzNDMTkuNDE2NyAxNS4xNjY3IDE3LjI1IDE3LjMzMzQgMTcuMjUgMjIuNzUwMVYyOS4yNTAxQzE3LjI1IDM0LjY2NjcgMTkuNDE2NyAzNi44MzM0IDI0LjgzMzMgMzYuODMzNFoiIHN0cm9rZT0iIzEwQjI1OSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMzEuODc1IDIxLjIxMTdWMjIuMjk1QzMxLjg3NSAyMy4xODMzIDMxLjE0OTIgMjMuOTIgMzAuMjUgMjMuOTJIMjMuNzVDMjIuODYxNyAyMy45MiAyMi4xMjUgMjMuMTk0MiAyMi4xMjUgMjIuMjk1VjIxLjIxMTdDMjIuMTI1IDIwLjMyMzMgMjIuODUwOCAxOS41ODY3IDIzLjc1IDE5LjU4NjdIMzAuMjVDMzEuMTQ5MiAxOS41ODY3IDMxLjg3NSAyMC4zMTI1IDMxLjg3NSAyMS4yMTE3WiIgc3Ryb2tlPSIjMTBCMjU5IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yMi44MTQgMjguMTY2N0gyMi44MjdNMjYuOTk0NSAyOC4xNjY3SDI3LjAwNzVNMzEuMTc1MSAyOC4xNjY3SDMxLjE4ODFNMjIuODE0IDMxLjk1ODRIMjIuODI3TTI2Ljk5NDUgMzEuOTU4NEgyNy4wMDc1TTMxLjE3NTEgMzEuOTU4NEgzMS4xODgxIiBzdHJva2U9IiMxMEIyNTkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTRGRkYxIi8+CjxwYXRoIGQ9Ik0xNy43OTE2IDMyLjUwMDFWMjAuNTgzNEMxNy43OTE2IDE2LjI1MDEgMTguODc1IDE1LjE2NjcgMjMuMjA4MyAxNS4xNjY3SDMwLjc5MTZDMzUuMTI1IDE1LjE2NjcgMzYuMjA4MyAxNi4yNTAxIDM2LjIwODMgMjAuNTgzNFYzMS40MTY3QzM2LjIwODMgMzEuNTY4NCAzNi4yMDgzIDMxLjcyMDEgMzYuMTk3NSAzMS44NzE3IiBzdHJva2U9IiMzMjk2RkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIyLjY2NjYgMjAuNTgzM0gzMS4zMzMzTTIyLjY2NjYgMjQuMzc0OUgyOC4wODMzTTIwLjg3OTEgMjkuMjQ5OUgzNi4yMDgzVjMzLjA0MTZDMzYuMjA4MyAzNS4xMzI0IDM0LjUwNzUgMzYuODMzMyAzMi40MTY2IDM2LjgzMzNIMjEuNTgzM0MxOS40OTI1IDM2LjgzMzMgMTcuNzkxNiAzNS4xMzI0IDE3Ljc5MTYgMzMuMDQxNlYzMi4zMzc0QzE3Ljc5MTYgMzAuNjM2NiAxOS4xNzgzIDI5LjI0OTkgMjAuODc5MSAyOS4yNDk5WiIgc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9In"
                                         alt="">
                                     <div>
                                         <span>Calculator</span>
@@ -150,7 +154,7 @@
                                 </a>
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0YwRjBGMCIvPgo8cGF0aCBkPSJNMjYuMjQ3OCAxMi40NTIxSDEzLjM3MjJDMTIuNDE0MSAxMi40NTIxIDExLjYzNSAxMy4xODU0IDExLjYzNSAxNC4wODcxVjI1LjUzMjFDMTEuNjM1IDI2LjQzMzkgMTIuNDE0MSAyNy4xNjcxIDEzLjM3MjIgMjcuMTY3MUgyNi4yNDc4QzI3LjIwNTkgMjcuMTY3MSAyNy45ODUgMjYuNDMzOSAyNy45ODUgMjUuNTMyMVYxNC4wODcxQzI3Ljk4NSAxMy4xODU0IDI3LjIwNTkgMTIuNDUyMSAyNi4yNDc4IDEyLjQ1MjFaTTI2LjI0NzggMjUuNTMyMUgxMy4zNzIyQzEzLjMyNTYgMjUuNTMyMSAxMy4yOTM3IDI1LjUxOTEgMTMuMjc5OCAyNS41MTkxQzEzLjI3NDEgMjUuNTE5MSAxMy4yNzA4IDI1LjUyMDcgMTMuMjcgMjUuNTI1NkwxMy4yNjAyIDE0LjEyNDhDMTMuMjY1OSAxNC4xMTY2IDEzLjMwMjcgMTQuMDg3MSAxMy4zNzIyIDE0LjA4NzFIMjYuMjQ3OEMyNi4zMTI0IDE0LjA4OCAyNi4zNDc2IDE0LjExIDI2LjM1IDE0LjA5MzdMMjYuMzU5OCAyNS40OTQ1QzI2LjM1NDEgMjUuNTAyNyAyNi4zMTczIDI1LjUzMjEgMjYuMjQ3OCAyNS41MzIxWiIgZmlsbD0iIzIyMjkzNiIvPgo8cGF0aCBkPSJNMTQuOTA1IDE1LjcyMjdIMTkuODFWMjAuNjI3N0gxNC45MDVWMTUuNzIyN1pNMjAuNjI3NSAyMi4yNjI3SDE0LjkwNVYyMy44OTc3SDI0LjcxNVYyMi4yNjI3SDIxLjQ0NUgyMC42Mjc1Wk0yMS40NDUgMTguOTkyN0gyNC43MTVWMjAuNjI3N0gyMS40NDVWMTguOTkyN1pNMjEuNDQ1IDE1LjcyMjdIMjQuNzE1VjE3LjM1NzdIMjEuNDQ1VjE1LjcyMjdaIiBmaWxsPSIjMjIyOTM2Ii8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0YwRjBGMCIvPgo8cGF0aCBkPSJNMjYuMjQ3OCAxMi40NTIxSDEzLjM3MjJDMTIuNDE0MSAxMi40NTIxIDExLjYzNSAxMy4xODU0IDExLjYzNSAxNC4wODcxVjI1LjUzMjFDMTEuNjM1IDI2LjQzMzkgMTIuNDE0MSAyNy4xNjcxIDEzLjM3MjIgMjcuMTY3MUgyNi4yNDc4QzI3LjIwNTkgMjcuMTY3MSAyNy45ODUgMjYuNDMzOSAyNy45ODUgMjUuNTMyMVYxNC4wODcxQzI3Ljk4NSAxMy4xODU0IDI3LjIwNTkgMTIuNDUyMSAyNi4yNDc4IDEyLjQ1MjFaTTI2LjI0NzggMjUuNTMyMUgxMy4zNzIyQzEzLjMyNTYgMjUuNTMyMSAxMy4yOTM3IDI1LjUxOTEgMTMuMjc5OCAyNS41MTkxQzEzLjI3NDEgMjUuNTE5MSAxMy4yNzA4IDI1LjUyMDcgMTMuMjcgMjUuNTI1NkwxMy4yNjAyIDE0LjEyNDhDMTMuMjY1OSAxNC4xMTY2IDEzLjMwMjcgMTQuMDg3MSAxMy4zNzIyIDE0LjA4NzFIMjYuMjQ3OEMyNi4zMTI0IDE0LjA4OCAyNi4zNDc2IDE0LjExIDI2LjM1IDE0LjA5MzdMMjYuMzU5OCAyNS40OTQ1QzI2LjM1NDEgMjUuNTAyNyAyNi4zMTczIDI1LjUzMjEgMjYuMjQ3OCAyNS41MzIxWiIgZmlsbD0iIzIyMjkzNiIvPgo8cGF0aCBkPSJNMTQuOTA1IDE1LjcyMjdIMTkuODFWMjAuNjI3N0gxNC45MDVWMTUuNzIyN1pNMjAuNjI3NSAyMi4yNjI3SDE0LjkwNVYyMy44OTc3SDI0LjcxNVYyMi4yNjI3SDIxLjQ0NUgyMC42Mjc1Wk0yMS40NDUgMTguOTkyN0gyNC43MTVWMjAuNjI3N0gyMS40NDVWMTguOTkyN1pNMjEuNDQ1IDE1LjcyMjdIMjQuNzE1VjE3LjM1NzdIMjEuNDQ1VjE1LjcyMjdaIiBmaWxsPSIjMjIyOTM2Ii8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>Newsletter</span>
@@ -159,7 +163,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTNGNUZGIi8+CjxwYXRoIGQ9Ik0xNy43OTE2IDMyLjUwMDFWMjAuNTgzNEMxNy43OTE2IDE2LjI1MDEgMTguODc1IDE1LjE2NjcgMjMuMjA4MyAxNS4xNjY3SDMwLjc5MTZDMzUuMTI1IDE1LjE2NjcgMzYuMjA4MyAxNi4yNTAxIDM2LjIwODMgMjAuNTgzNFYzMS40MTY3QzM2LjIwODMgMzEuNTY4NCAzNi4yMDgzIDMxLjcyMDEgMzYuMTk3NSAzMS44NzE3IiBzdHJva2U9IiMzMjk2RkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIyLjY2NjYgMjAuNTgzM0gzMS4zMzMzTTIyLjY2NjYgMjQuMzc0OUgyOC4wODMzTTIwLjg3OTEgMjkuMjQ5OUgzNi4yMDgzVjMzLjA0MTZDMzYuMjA4MyAzNS4xMzI0IDM0LjUwNzUgMzYuODMzMyAzMi40MTY2IDM2LjgzMzNIMjEuNTgzM0MxOS40OTI1IDM2LjgzMzMgMTcuNzkxNiAzNS4xMzI0IDE3Ljc5MTYgMzMuMDQxNlYzMi4zMzc0QzE3Ljc5MTYgMzAuNjM2NiAxOS4xNzgzIDI5LjI0OTkgMjAuODc5MSAyOS4yNDk5WiIgc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTNGNUZGIi8+CjxwYXRoIGQ9Ik0xNy43OTE2IDMyLjUwMDFWMjAuNTgzNEMxNy43OTE2IDE2LjI1MDEgMTguODc1IDE1LjE2NjcgMjMuMjA4MyAxNS4xNjY3SDMwLjc5MTZDMzUuMTI1IDE1LjE2NjcgMzYuMjA4MyAxNi4yNTAxIDM2LjIwODMgMjAuNTgzNFYzMS40MTY3QzM2LjIwODMgMzEuNTY4NCAzNi4yMDgzIDMxLjcyMDEgMzYuMTk3NSAzMS44NzE3IiBzdHJva2U9IiMzMjk2RkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIyLjY2NjYgMjAuNTgzM0gzMS4zMzMzTTIyLjY2NjYgMjQuMzc0OUgyOC4wODMzTTIwLjg3OTEgMjkuMjQ5OUgzNi4yMDgzVjMzLjA0MTZDMzYuMjA4MyAzNS4xMzI0IDM0LjUwNzUgMzYuODMzMyAzMi40MTY2IDM2LjgzMzNIMjEuNTgzM0MxOS40OTI1IDM2LjgzMzMgMTcuNzkxNiAzNS4xMzI0IDE3Ljc5MTYgMzMuMDQxNlYzMi4zMzc0QzE3Ljc5MTYgMzAuNjM2NiAxOS4xNzgzIDI5LjI0OTkgMjAuODc5MSAyOS4yNDk5WiIgc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>E-book</span>
@@ -218,20 +222,154 @@
                 </li>
 
                 <div class="d-flex flex-column align-items-center pe-1 gap-2">
-                <button class="btn1 ss ">Sign IN</button>
-                <button class="btn1 cc">Create free account</button>
-            </div>
+                    <button class="btn1 ss ">Sign IN</button>
+                    <button class="btn1 cc">Create free account</button>
+                </div>
             </ul>
         </div>
     </div>
 
-    <section class="section1">
-        <div></div>
-        <button class="">
-            The 2024 PiggyVest Savings Report
+    <section style="width: 100%; height: fit-content; background-color: #f2f7f8;" class="section1">
+        <div class="container d-flex justify-content-center gap-5">
+            <div class="text p-lg-5 text-center">
+                <button style="color: white; font-weight: 500;" class="announcement">
+                    <svg class="report-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32 15.9904C31.9832 13.4471 29.9905 11.3781 27.4809 11.2432C28.2923 10.3396 28.7026 9.20001 28.7026 8.05704C28.6902 6.8455 28.2373 5.60924 27.3078 4.6798C25.4973 2.89285 22.6258 2.8389 20.7557 4.51909C20.6905 3.30643 20.1746 2.21066 19.3666 1.40147C18.5012 0.552945 17.3065 0 15.9916 0C13.4483 0.0168581 11.3792 2.00948 11.2443 4.51909C10.3407 3.70765 9.20115 3.29744 8.05817 3.29744C6.84663 3.3098 5.61037 3.76272 4.6798 4.69216C2.89285 6.50272 2.83891 9.37421 4.5191 11.2443C2.00949 11.3792 0.0168581 13.4471 0 15.9916C0 17.3065 0.554079 18.5012 1.40148 19.3666C2.20954 20.1746 3.30644 20.6905 4.5191 20.7557C2.84003 22.6258 2.89285 25.4973 4.6798 27.3078C5.61037 28.2384 6.84551 28.6913 8.05704 28.7026C9.20002 28.7026 10.3396 28.2912 11.2432 27.4809C11.3781 29.9905 13.446 31.9831 15.9905 32C17.3054 32 18.5001 31.4459 19.3654 30.5985C20.1735 29.7905 20.6894 28.6936 20.7545 27.4809C22.6247 29.1611 25.4962 29.1072 27.3067 27.3202C28.2373 26.3896 28.6902 25.1545 28.7014 23.943C28.7014 22.8 28.2901 21.6604 27.4798 20.7568C28.6924 20.6916 29.7893 20.1757 30.5974 19.3677C31.4459 18.5023 31.9989 17.3076 31.9989 15.9927L32 15.9904Z"
+                            fill="#FFE201" class="flower"></path>
+                        <g class="book-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.6667 11.3335C20.6667 10.9653 20.3682 10.6668 20 10.6668L12 10.6668C11.6318 10.6668 11.3333 10.9653 11.3333 11.3335L11.3333 20.6668C11.3333 21.035 11.6318 21.3335 12 21.3335L20 21.3335C20.3682 21.3335 20.6667 21.035 20.6667 20.6668L20.6667 11.3335ZM20 9.3335C21.1046 9.3335 22 10.2289 22 11.3335L22 20.6668C22 21.7714 21.1046 22.6668 20 22.6668L12 22.6668C10.8954 22.6668 10 21.7714 10 20.6668L10 11.3335C10 10.2289 10.8954 9.3335 12 9.3335L20 9.3335Z"
+                                fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 14.0002C12 13.632 12.2985 13.3335 12.6667 13.3335H19.3333C19.7015 13.3335 20 13.632 20 14.0002C20 14.3684 19.7015 14.6668 19.3333 14.6668H12.6667C12.2985 14.6668 12 14.3684 12 14.0002Z"
+                                fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 12.0002C12 11.632 12.2985 11.3335 12.6667 11.3335H15.3333C15.7015 11.3335 16 11.632 16 12.0002C16 12.3684 15.7015 12.6668 15.3333 12.6668H12.6667C12.2985 12.6668 12 12.3684 12 12.0002Z"
+                                fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18 19.3332C18.3682 19.3332 18.6667 19.0347 18.6667 18.6665V17.3332C18.6667 16.965 18.3682 16.6665 18 16.6665H14C13.6318 16.6665 13.3333 16.965 13.3333 17.3332V18.6665C13.3333 19.0347 13.6318 19.3332 14 19.3332H18ZM20 18.6665C20 19.7711 19.1046 20.6665 18 20.6665H14C12.8954 20.6665 12 19.7711 12 18.6665V17.3332C12 16.2286 12.8954 15.3332 14 15.3332H18C19.1046 15.3332 20 16.2286 20 17.3332V18.6665Z"
+                                fill="black"></path>
+                        </g>
+                    </svg>
+                    The 2024 PiggyVest Savings Report
+                    <i class="icon fa-solid fa-angle-right" style="color: #74C0FC;"></i>
+                </button>
 
-        </button>
+                <h1 class="mb-2"
+                    style="max-width: 459px; line-height: 40px; font-size: 48px;margin: -20px 0px 0px; letter-spacing: -1.44px; line-height: 56px; font-weight: 700;">
+                    The Better Way to Save & Invest</h1>
 
+                <p class="mb-4"
+                    style="font-size:20px; line-height: 32px; letter-spacing: -0.48px; padding: 25px 0px 40px;font-weight: 400;">
+                    Piggyvest helps over 5 million customers<br> achieve their financial goals by
+                    helping <br> them save and
+                    invest with ease.</p>
+
+                <span class="">
+                    <button class="btn1 bb">
+                        <img src="https://storage.googleapis.com/new-abeg-avatar-dev/piggyvest-cms-staging/white_Apple_Logo_768cf7ce21/white_Apple_Logo_768cf7ce21.svg"
+                            width="20px" alt="">Get on iPhone
+                    </button>
+                    <button class="btn1 bb">
+                        <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/google_icon_9867fc9be6/google_icon_9867fc9be6.svg"
+                            alt="">Get on Android
+                    </button>
+                </span>
+
+            </div>
+            <div class="imgs ms-4">
+                <img style="border-radius: 16px;" class="header"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/pexels_ketut_subiyanto_4350099_bc5e069ebe/pexels_ketut_subiyanto_4350099_bc5e069ebe.avif"
+                    alt="" width="500px">
+                <div class="imgs2">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/SL_HP_Oct_b9f11b4df0/SL_HP_Oct_b9f11b4df0.png"
+                        alt="" width="210px">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/TS_HP_Oct_194c3b04f3/TS_HP_Oct_194c3b04f3.png"
+                        alt="" width="210px">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Frame_79_49decc7ace/Frame_79_49decc7ace.png "
+                        width="210px" alt="">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Frame_18_c908af085c/Frame_18_c908af085c.png"
+                        width="210px" alt="">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/PB_HP_Oct_25_c7ed791eba/PB_HP_Oct_25_c7ed791eba.png"
+                        width="210px" alt="">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Frame_82_17e65ddb4c/Frame_82_17e65ddb4c.png"
+                        width="210px" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #f2f7f8;" class="investments security">
+        <div class="container">
+            <div class="d-lg-flex gap-2">
+                <div class="d-lg-flex al-i-c">
+                    <div class="d-flex justify-content-center justify-content-lg-start ml-auto">
+                        <div>
+                            <img width="100px"
+                                src="https://storage.googleapis.com/new-abeg-avatar-dev/piggyvest-cms-staging/securitylock_7d5d97e5a1/securitylock_7d5d97e5a1.svg"
+                                alt="security icon">
+                        </div>
+                    </div>
+                </div>
+                <div style="max-width: 649px;" class="content">
+                    <h3>Your security is our priority</h3>
+                    <p class="mt-2">PiggyVest uses the highest level of Internet Security and it is secured by 256 bits
+                        SSL
+                        security
+                        encryption to ensure that your information is completely protected from fraud.</p>
+                    <div>
+                        <img src="./media/enter icon.png" alt="">
+                    </div>
+                    <h6 class="mb-0">
+                        More on our security measures
+                    </h6>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section style="background-color: #f2f7f8;">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h3 class="title" style="font-size: 48px;">Many ways to build your savings</h3>
+                <p class="pt-2">Earn 12%-20% when you save with any of these Piggyvest plans.</p>
+            </div>
+
+
+            <!-- features
+            <div class="main">
+                <div style="border-radius: 20px; width: 485px; height: 440px;" class="bg-white">
+                    <div>
+                        <div>
+                            <h5>Automated Savings </h5>
+                        </div>
+                    </div>
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/PB_MD_Oct_25_932caf9b0c/PB_MD_Oct_25_932caf9b0c.png"
+                        width="100px" alt="">
+                </div>
+
+            </div>
+        </div> -->
+    </section>
+
+    <section style="background-color: #fff;">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h3 class="title" style="font-size: 48px;">
+                    Diverse ways to Invest
+                </h3>
+                <p style="font-weight: 400;" class="pt-1">Grow your money and invest for your future confidently.</p>
+
+            </div>
+            <div style="background: #7913e5; border-radius: 30px;">
+
+            </div>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
