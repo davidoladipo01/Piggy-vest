@@ -15,7 +15,8 @@
     z-index: 1055 !important;
 }
 
-body,html {
+body,
+html {
     transform: none !important;
 }
 
@@ -44,6 +45,9 @@ body,html {
 }
 
 .btn1 {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
     color: #0c1825;
     font-size: 15px;
     text-align: center;
@@ -83,6 +87,11 @@ body,html {
     font-size: 17px;
     font-family: Jakarta (ttf);
 }
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
 
 .text {
     padding-top: 72px;
@@ -125,7 +134,7 @@ body,html {
     gap: 5px;
     align-items: center;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 29px;
     padding: 8px 12px;
     border-radius: 100px;
     border: none;
@@ -148,6 +157,36 @@ body,html {
 .bb {
     background-color: #122231;
     color: white;
+    /* margin-top: -200px; */
+}
+
+.anime:not(:hover){
+    animation: jump2 0.s ease-out ;
+    /* animation-duration: 1s; */
+}
+
+@keyframes jump2 {
+    from {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes jump {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.anime:hover{
+    animation: jump ease-in-out forwards;
+    animation-duration: 0.4s;
 }
 
 .section1 .container {
@@ -157,6 +196,7 @@ body,html {
     padding: 190px 0px 100px;
     max-width: 1165px;
     margin: auto;
+    text-align: center;
 }
 
 .imgs {
@@ -177,22 +217,26 @@ body,html {
     50% {
         transform: translateY(-20px);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
-.imgs2{
+
+.imgs2 {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;;
+    left: 0;
+    ;
 }
-.header{
+
+.header {
     position: relative;
 }
 
-.imgs:hover{
+.imgs:hover {
     animation-play-state: paused;
 }
 
@@ -229,63 +273,227 @@ body,html {
     bottom: -16px;
     right: -32px;
 }
-/* @media screen and (max-width: 800px) {} */
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 600px) {
+    .texts {
+        max-width: 242px !important;
+    }
+
+    .box {
+        width: 90vw;
+        max-width: 370px;
+        margin-bottom: 0 !important;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    body{
+        text-align: center !important;
+    }
+    
+        .security2{
+        display: flex;
+        align-items: center;
+    }
+
+    
     .toggler {
         position: absolute;
         top: 20px;
         right: 8px;
     }
-}
-/* animation */
-@media only screen and (max-width: 1600px) {
-    .main{
-        width: unset;
+
+    .texts {
+        max-width: 377px !important;
+    }
+
+    .content {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .content p{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .box {
+        padding: 30px;
     }
 }
+
+
+/* animation */
+@media only screen and (min-width: 1400px) {
+    .main-cards{
+        width: unset;
+    }
+    }
+
+@media screen and (min-width: 1200px) {
+    .section1 .text {
+        text-align: left;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     .imgs2 img {
         width: 120px;
 
     }
-     .imgs .header{
+
+    .imgs .header {
         width: 330px;
         max-width: 85vw;
         min-height: unset;
     }
-    .imgs2{
+
+    .imgs2 {
         max-height: 10px;
     }
-    .imgs2 img:first-child{
-        top: 50px!important; 
-        left: -5px!important;
+
+    .imgs2 img:first-child {
+        top: 50px !important;
+        left: -5px !important;
     }
+
     .imgs .imgs2 img:nth-child(2) {
-    top: 30px!important;
-    right: 6px!important;
+        top: 30px !important;
+        right: 6px !important;
+    }
+
+    .imgs .imgs2 img:nth-child(3) {
+        top: 145px !important;
+        left: -5px !important;
+    }
+
+    .imgs .imgs2 img:nth-child(4) {
+        top: 160px !important;
+        right: 9px !important;
+    }
+
+    .imgs .imgs2 img:nth-child(5) {
+        top: 250px !important;
+        left: -1px !important;
+    }
+
+    .imgs .imgs2 img:nth-child(6) {
+        top: 247px !important;
+        right: 7px !important;
+    }
+
+    .title {
+        font-size: 30px !important;
+    }
 }
 
-.imgs .imgs2 img:nth-child(3) {
-    top: 145px!important;
-    left: -5px!important;
+/* section3 */
+
+
+.main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:  30px;
 }
 
-.imgs .imgs2 img:nth-child(4) {
-    top: 160px!important;
-    right: 9px!important;
+.box {
+    cursor: pointer;
+    position: relative;
+    margin: unset;
+    overflow: hidden;
+    height: 440px;
+    width: 485px;
+    margin-bottom: 0 !important;
+    padding: 30px 10px 30px 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.imgs .imgs2 img:nth-child(5) {
-    top: 250px!important;
-    left: -1px!important;
+.box .phone{
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    /* z-index: 50; */
+    transform: translateX(152.2%)  /* Initial position */
 }
 
-.imgs .imgs2 img:nth-child(6) {
-    top: 247px!important;
-    right: 7px!important;
+.box:hover .phone  {
+    animation-name: phoneslide;
+        transform-origin: bottom right;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }
-.title{
-    font-size: 28px!important;
+
+@keyframes phoneslide {
+    0% {
+        transform: translateX(152.2%) scale(0.5);
+    }
+    100% {
+        transform: translateX(42.7%) scale(1);
+    }
 }
+
+.phone:not(:hover){
+    animation-name: phoneslideout;
+    transform-origin: bottom right;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes phoneslideout {
+    0% {
+        transform: translateX(42.7%) scale(1);
+    }
+    75% {
+        transform: translateX(inherit) scale(0.8); /* Fixed the 'inherit' value */
+    }
+    100% {
+        transform: translateX(152.2%) scale(0.5);
+    }
+}
+
+.piggybank:hover{
+    
+    background-color:#0f60d6  !important ;
+}
+
+.safelock:hover{
+    
+    background-color:#2295f2  !important ;
+}
+
+.savings:hover{
+    
+    background-color:#39c277  !important ;
+}
+
+.flexnaira1:hover{
+    background-color: #003399 !important;
+}
+
+.flexnaira2:hover{
+    
+    background-color:#ff7a00  !important ;
+}
+
+.flexdollar:hover{
+    
+    background-color:#0c1825  !important ;
+}
+
+.box:hover .change{
+    color: white!important;
 }

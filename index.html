@@ -9,6 +9,9 @@
     <script src="https://kit.fontawesome.com/b213b67858.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <style>
         .dropdown-toggle::after {
             display: none !important;
@@ -21,7 +24,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top shadow z-3" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg fixed-top shadow z-3" style="background-color: white; z-index: 1;">
         <div class="container-fluid d-flex align-items-center group w-100">
             <a class="navbar-brand brand ms-lg-5 p-lg-2" href="">
                 <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/logo_08e6965627/logo_08e6965627.svg"
@@ -119,7 +122,7 @@
                             <div class="menugrid1 d-grid gap-4 p-3">
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTBFRkZGIi8+CjxwYXRoIGQ9Ik0yMC41IDIyLjc1VjI5LjI1QzIwLjUgMzEuNDE2NyAyMS41ODMzIDMyLjUgMjMuNzUgMzIuNUgzMC4yNUMzMi40MTY3IDMyLjUgMzMuNSAzMS40MTY3IDMzLjUgMjkuMjVWMjZDMzMuNSAyNS4zNSAzMy4wNjY3IDI0LjkxNjcgMzIuNDE2NyAyNC45MTY3QzMxLjc2NjcgMjQuOTE2NyAzMS4zMzMzIDI0LjQ4MzMgMzEuMzMzMyAyMy44MzMzVjIyLjc1QzMxLjMzMzMgMjAuNTgzMyAzMC4yNSAxOS41IDI4LjA4MzMgMTkuNUgyMy43NUMyMS41ODMzIDE5LjUgMjAuNSAyMC41ODMzIDIwLjUgMjIuNzVaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPHBhdGggZD0iTTI0LjgzMzQgMjMuODMzM0gyN00yNC44MzM0IDI4LjE2NjZIMjkuMTY2N7Igc3Ryb2tlPSIjMEQ2MEQ4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTMwLjI1IDM2LjgzMzRIMjMuNzVDMTguMzMzMyAzNi44MzM0IDE2LjE2NjYgMzQuNjY2NyAxNi4xNjY2IDI5LjI1MDFWMjIuNzUwMUMxNi4xNjY2IDE3LjMzMzQgMTguMzMzMyAxNS4xNjY3IDIzLjc1IDE1LjE2NjdIMzAuMjVDMzUuNjY2NiAxNS4xNjY3IDM3LjgzMzMgMTcuMzMzNCAzNy44MzMzIDIyLjc1MDFWMjkuMjUwMUMzNy44MzMzIDM0LjY2NjcgMzUuNjY2NiAzNi44MzM0IDMwLjI1IDM2LjgzMzRaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTBFRkZGIi8+CjxwYXRoIGQ9Ik0yMC41IDIyLjc1VjI5LjI1QzIwLjUgMzEuNDE2NyAyMS41ODMzIDMyLjUgMjMuNzUgMzIuNUgzMC4yNUMzMi40MTY3IDMyLjUgMzMuNSAzMS40MTY3IDMzLjUgMjkuMjVWMjZDMzMuNSAyNS4zNSAzMy4wNjY3IDI0LjkxNjcgMzIuNDE2NyAyNC45MTY3QzMxLjc2NjcgMjQuOTE2NyAzMS4zMzMzIDI0LjQ4MzMgMzEuMzMzMyAyMy44MzMzVjIyLjc1QzMxLjMzMzMgMjAuNTgzMyAzMC4yNSAxOS41IDI4LjA4MzMgMTkuNUgyMy43NUMyMS41ODMzIDE5LjUgMjAuNSAyMC41ODMzIDIwLjUgMjIuNzVaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPHBhdGggZD0iTTI0LjgzMzQgMjMuODMzM0gyN00yNC44MzM0IDI4LjE2NjZIMjkuMTY2NyIgc3Ryb2tlPSIjMEQ2MEQ4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTMwLjI1IDM2LjgzMzRIMjMuNzVDMTguMzMzMyAzNi44MzM0IDE2LjE2NjYgMzQuNjY2NyAxNi4xNjY2IDI5LjI1MDFWMjIuNzUwMUMxNi4xNjY2IDE3LjMzMzQgMTguMzMzMyAxNS4xNjY3IDIzLjc1IDE1LjE2NjdIMzAuMjVDMzUuNjY2NiAxNS4xNjY3IDM3LjgzMzMgMTcuMzMzNCAzNy44MzMzIDIyLjc1MDFWMjkuMjUwMUMzNy44MzMzIDM0LjY2NjcgMzUuNjY2NiAzNi44MzM0IDMwLjI1IDM2LjgzMzRaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=="
                                         width="40px" alt="">
                                     <div>
                                         <span class="">Blog</span>
@@ -128,7 +131,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0ZGRjFGOSIvPgo8cGF0aCBkPSJNMjEuNDQ1IDExLjYzNDhIMTQuOTA1QzE0LjAwNTggMTEuNjM0OCAxMy4yNyAxMi4zNzA1IDEzLjI3IDEzLjI2OThWMjYuMzQ5OEMxMy4yNyAyNy4yNDkgMTQuMDA1OCAyNy45ODQ4IDE0LjkwNSAyNy45ODQ4SDI0LjcxNUMyNS42MTQzIDI3Ljk4NDggMjYuMzUgMjcuMjQ5IDI2LjM1IDI2LjM0OThWMTYuNTM5OEwyMS40NDUgMTEuNjM0OFpNMjQuNzE1IDI2LjM0OThIMTQuOTA1VjEzLjI2OThIMjAuNjI3NVYxNy4zNTczSDI0LjcxNVYyNi4zNDk4Wk0xNy4zNTc1IDIwLjYyNzNWMjUuNTMyM0gxNS43MjI1VjIwLjYyNzNIMTcuMzU3NVpNMjIuMjYyNSAyMi4yNjIzVjI1LjUzMjNIMjMuODk3NVYyMi4yNjIzSDIyLjI2MjVaTTE4Ljk5MjUgMTguOTkyM1YyNS41MzIzSDIwLjYyNzVWMTguOTkyM0gxOC45OTI1WiIgZmlsbD0iI0U1NDg5QiIvPgo8L3N2Zz4K"
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0ZGRjFGOSIvPgo8cGF0aCBkPSJNMjEuNDQ1IDExLjYzNDhIMTQuOTA1QzE0LjAwNTggMTEuNjM0OCAxMy4yNyAxMi4zNzA1IDEzLjI3IDEzLjI2OThWMjYuMzQ5OEMxMy4yNyAyNy4yNDkgMTQuMDA1OCAyNy45ODQ4IDE0LjkwNSAyNy45ODQ4SDI0LjcxNUMyNS42MTQzIDI3Ljk4NDggMjYuMzUgMjcuMjQ5IDI2LjM1IDI2LjM0OThWMTYuNTM5OEwyMS40NDUgMTEuNjM0OFpNMjQuNzE1IDI2LjM0OThIMTQuOTA1VjEzLjI2OThIMjAuNjI3NVYxNy4zNTczSDI0LjcxNVYyNi4zNDk4Wk0xNy4zNTc1IDIwLjYyNzNWMjUuNTMyM0gxNS43MjI1VjIwLjYyNzNIMTcuMzU3NVpNMjIuMjYyNSAyMi4yNjIzVjI1LjUzMjNIMjMuODk3NVYyMi4yNjIzSDIyLjI2MjVaTTE4Ljk5MjUgMTguOTkyM1YyNS41MzIzSDIwLjYyNzVWMTguOTkyM0gxOC45OTI1WiIgZmlsbD0iI0U1NDg5QiIvPgo8L3N2Zz4K"
                                         alt="">
                                     <div>
                                         <span>Reports</span>
@@ -137,7 +140,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0NERkZGNSIvPgo8cGF0aCBkPSJNMjAuNjk3IDI0Ljk4OTNWMTQuNjMxNkgxNi45MTZWMjQuOTg5M00yMC42OTcgMjQuOTg5M0gxNi45MTZNMjAuNjk3IDI0Ljk4OTNWMjcuMTY4QzIwLjY5NyAyNy4zMjk1IDIwLjYzMjggMjcuNDg0NCAyMC41MTg2IDI3LjU5ODZDMjAuNDA0NCAyNy43MTI4IDIwLjI0OTUgMjcuNzc3IDIwLjA4NzkgMjcuNzc3SDE3LjUyNTFDMTcuNDQ1MSAyNy43NzcgMTcuMzY1OSAyNy43NjEzIDE3LjI5MiAyNy43MzA2QzE3LjIxODEgMjcuNyAxNy4xNTEgMjcuNjU1MiAxNy4wOTQ0IDI3LjU5ODZDMTcuMDM3OSAyNy41NDIxIDE2Ljk5MyAyNy40NzQ5IDE2Ljk2MjQgMjcuNDAxQzE2LjkzMTggMjcuMzI3MSAxNi45MTYgMjcuMjQ3OSAxNi45MTYgMjcuMTY4VjI0Ljk4OTNNMTYuOTE2IDI0Ljk4OTNWMTUuOTk2OEgxMi43MDE4TTE2LjkxNiAyNC45ODkzSDEyLjcwMThNMTYuOTE2IDI0Ljk4OTNWMjcuMDk0NEMxNi45MTYgMjcuMjc2NSAxNi44NDM3IDI3LjQ1MTIgMTYuNzE0OSAyNy41OEMxNi41ODYxIDI3LjcwODcgMTYuNDExNSAyNy43ODExIDE2LjIyOTMgMjcuNzgxMUgxMy4zNjgxQzEzLjE4NiAyNy43ODExIDEzLjAxMTMgMjcuNzA4NyAxMi44ODI1IDI3LjU4QzEyLjc1MzcgMjcuNDUxMiAxMi42ODE0IDI3LjI3NjUgMTIuNjgxNCAyNy4wOTQ0TDEyLjcwMTggMjQuOTg5M00yMS4wMzYyIDE3LjU5MUwyNS4zODUzIDE2Ljg5MkwyNS4wNjI0IDE0Ljg0ODJDMjUuMDMyMyAxNC42NjE0IDI0LjkyOTMgMTQuNDk0MSAyNC43NzYxIDE0LjM4M0MyNC42MjI5IDE0LjI3MTkgMjQuNDMxOSAxNC4yMjYxIDI0LjI0NDkgMTQuMjU1NkwyNC4yNDkgMTQuMjU5NkwyMS4zMDE5IDE0LjcyOTdDMjEuMjA5MyAxNC43NDQxIDIxLjEyMDUgMTQuNzc2NyAyMS4wNDA2IDE0LjgyNThDMjAuOTYwN7Igc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0NERkZGNSIvPgo8cGF0aCBkPSJNMjAuNjk3IDI0Ljk4OTNWMTQuNjMxNkgxNi45MTZWMjQuOTg5M00yMC42OTcgMjQuOTg5M0gxNi45MTZNMjAuNjk3IDI0Ljk4OTNWMjcuMTY4QzIwLjY5NyAyNy4zMjk1IDIwLjYzMjggMjcuNDg0NCAyMC41MTg2IDI3LjU5ODZDMjAuNDA0NCAyNy43MTI4IDIwLjI0OTUgMjcuNzc3IDIwLjA4NzkgMjcuNzc3SDE3LjUyNTFDMTcuNDQ1MSAyNy43NzcgMTcuMzY1OSAyNy43NjEzIDE3LjI5MiAyNy43MzA2QzE3LjIxODEgMjcuNyAxNy4xNTEgMjcuNjU1MiAxNy4wOTQ0IDI3LjU5ODZDMTcuMDM3OSAyNy41NDIxIDE2Ljk5MyAyNy40NzQ5IDE2Ljk2MjQgMjcuNDAxQzE2LjkzMTggMjcuMzI3MSAxNi45MTYgMjcuMjQ3OSAxNi45MTYgMjcuMTY4VjI0Ljk4OTNNMTYuOTE2IDI0Ljk4OTNWMTUuOTk2OEgxMi43MDE4TTE2LjkxNiAyNC45ODkzSDEyLjcwMThNMTYuOTE2IDI0Ljk4OTNWMjcuMDk0NEMxNi45MTYgMjcuMjc2NSAxNi44NDM3IDI3LjQ1MTIgMTYuNzE0OSAyNy41OEMxNi41ODYxIDI3LjcwODcgMTYuNDExNSAyNy43ODExIDE2LjIyOTMgMjcuNzgxMUgxMy4zNjgxQzEzLjE4NiAyNy43ODExIDEzLjAxMTMgMjcuNzA4NyAxMi44ODI1IDI3LjU4QzEyLjc1MzcgMjcuNDUxMiAxMi42ODE0IDI3LjI3NjUgMTIuNjgxNCAyNy4wOTQ0TDEyLjcwMTggMjQuOTg5M00yMS4wMzYyIDE3LjU5MUwyNS4zODUzIDE2Ljg5MkwyNS4wNjI0IDE0Ljg0ODJDMjUuMDMyMyAxNC42NjE0IDI0LjkyOTMgMTQuNDk0MSAyNC43NzYxIDE0LjM4M0MyNC42MjI5IDE0LjI3MTkgMjQuNDMxOSAxNC4yMjYxIDI0LjI0NDkgMTQuMjU1NkwyNC4yNDkgMTQuMjU5NkwyMS4zMDE5IDE0LjcyOTdDMjEuMjA5MyAxNC43NDQxIDIxLjEyMDUgMTQuNzc2NyAyMS4wNDA2IDE0LjgyNThDMjAuOTYwNyAxNC44NzQ4IDIwLjg5MTMgMTQuOTM5MiAyMC44MzY2IDE1LjAxNTNDMjAuNzgxOCAxNS4wOTE0IDIwLjc0MjcgMTUuMTc3NiAyMC43MjE1IDE1LjI2ODlDMjAuNzAwNCAxNS4zNjAyIDIwLjY5NzYgMTUuNDU0OCAyMC43MTMzIDE1LjU0NzJMMjEuMDM2MiAxNy41OTFaTTIxLjAzNjIgMTcuNTkxTDIyLjIzMzkgMjUuMTI0MkwyNi41ODMgMjQuNDM3NU0yMS4wMzYyIDE3LjU5MUwyNS4zODUzIDE2LjkwMDJIMjUuMzgxM0wyNi41ODMgMjQuNDM3NU0yNi41ODMgMjQuNDM3NUwyNi45MSAyNi40ODEzQzI2LjkyNTEgMjYuNTczOSAyNi45MjE4IDI2LjY2ODYgMjYuOTAwMSAyNi43NkMyNi44Nzg1IDI2Ljg1MTMgMjYuODM5IDI2LjkzNzUgMjYuNzgzOSAyNy4wMTM0QzI2LjcyODggMjcuMDg5NCAyNi42NTkyIDI3LjE1MzggMjYuNTc5MSAyNy4yMDI4QzI2LjQ5OSAyNy4yNTE3IDI2LjQxIDI3LjI4NDQgMjYuMzE3MyAyNy4yOTg4TDIzLjM3MDIgMjcuNzY4OEMyMy4xODMzIDI3Ljc5ODMgMjIuOTkyMyAyNy43NTI0IDIyLjgzOSAyNy42NDE0QzIyLjY4NTggMjcuNTMwMyAyMi41ODI4IDI3LjM2MyAyMi41NTI3IDI3LjE3NjFMMjIuMjI5OCAyNS4xMzI0TDI2LjU3ODkgMjQuNDQxNkwyNi41ODMgMjQuNDM3NVpNMTIuNzAxOCAxNS45OTY4SDE2LjkzNjVWMTMuODkxOEMxNi45MzY1IDEzLjcwOTYgMTYuODY0MSAxMy41MzUgMTYuNzM1NCAxMy40MDYyQzE2LjYwNjYgMTMuMjc3NCAxNi40MzE5IDEzLjIwNTEgMTYuMjQ5OCAxMy4yMDUxSDEzLjM4ODVDMTMuMjA2NCAxMy4yMDUxIDEzLjAzMTcgMTMuMjc3NCAxMi45MDMgMTMuNDA2MkMxMi43NzQyIDEzLjUzNSAxMi43MDE4IDEzLjcwOTYgMTIuNzAxOCAxMy44OTE4VjE1Ljk5NjhaTTEyLjcwMTggMTUuOTk2OFYyNC45ODkzTTE3LjUyNTEgMTEuODM5OEgyMC4wODc5QzIwLjE2ODMgMTEuODM5OCAyMC4yNDc4IDExLjg1NTcgMjAuMzIyIDExLjg4NjZDMjAuMzk2MSAxMS45MTc1IDIwLjQ2MzQgMTEuOTYyNyAyMC41MjAxIDEyLjAxOTdDMjAuNTc2NyAxMi4wNzY3IDIwLjYyMTQgMTIuMTQ0MyAyMC42NTE4IDEyLjIxODZDMjAuNjgyMiAxMi4yOTMgMjAuNjk3NSAxMi4zNzI2IDIwLjY5NyAxMi40NTNWMTQuNjM1N0gxNi45MTZWMTIuNDUzQzE2LjkxNTUgMTIuMzcyNiAxNi45MzA5IDEyLjI5MyAxNi45NjEyIDEyLjIxODZDMTYuOTkxNiAxMi4xNDQzIDE3LjAzNjQgMTIuMDc2NyAxNy4wOTMgMTIuMDE5N0MxNy4xNDk2IDExLjk2MjcgMTcuMjE2OSAxMS45MTc1IDE3LjI5MTEgMTEuODg2NkMxNy4zNjUyIDExLjg1NTcgMTcuNDQ0OCAxMS44Mzk4IDE3LjUyNTEgMTEuODM5OFoiIHN0cm9rZT0iIzAzODg4NiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>Comics</span>
@@ -146,7 +149,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTRGRkYxIi8+CjxwYXRoIGQ9Ik0xNy43OTE2IDMyLjUwMDFWMjAuNTgzNEMxNy43OTE2IDE2LjI1MDEgMTguODc1IDE1LjE2NjcgMjMuMjA4MyAxNS4xNjY3SDMwLjc5MTZDMzUuMTI1IDE1LjE2NjcgMzYuMjA4MyAxNi4yNTAxIDM2LjIwODMgMjAuNTgzNFYzMS40MTY3QzM2LjIwODMgMzEuNTY4NCAzNi4yMDgzIDMxLjcyMDEgMzYuMTk3NSAzMS44NzE3IiBzdHJva2U9IiMzMjk2RkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIyLjY2NjYgMjAuNTgzM0gzMS4zMzMzTTIyLjY2NjYgMjQuMzc0OUgyOC4wODMzTTIwLjg3OTEgMjkuMjQ5OUgzNi4yMDgzVjMzLjA0MTZDMzYuMjA4MyAzNS4xMzI0IDM0LjUwNzUgMzYuODMzMyAzMi40MTY2IDM2LjgzMzNIMjEuNTgzM0MxOS40OTI1IDM2LjgzMzMgMTcuNzkxNiAzNS4xMzI0IDE3Ljc5MTYgMzMuMDQxNlYzMi4zMzc0QzE3Ljc5MTYgMzAuNjM2NiAxOS4xNzgzIDI5LjI0OTkgMjAuODc5MSAyOS4yNDk5WiIgc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9In"
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTRGRkYxIi8+CjxwYXRoIGQ9Ik0yNC44MzMzIDM2LjgzMzRIMjkuMTY2N0MzNC41ODMzIDM2LjgzMzQgMzYuNzUgMzQuNjY2NyAzNi43NSAyOS4yNTAxVjIyLjc1MDFDMzYuNzUgMTcuMzMzNCAzNC41ODMzIDE1LjE2NjcgMjkuMTY2NyAxNS4xNjY3SDI0LjgzMzNDMTkuNDE2NyAxNS4xNjY3IDE3LjI1IDE3LjMzMzQgMTcuMjUgMjIuNzUwMVYyOS4yNTAxQzE3LjI1IDM0LjY2NjcgMTkuNDE2NyAzNi44MzM0IDI0LjgzMzMgMzYuODMzNFoiIHN0cm9rZT0iIzEwQjI1OSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMzEuODc1IDIxLjIxMTdWMjIuMjk1QzMxLjg3NSAyMy4xODMzIDMxLjE0OTIgMjMuOTIgMzAuMjUgMjMuOTJIMjMuNzVDMjIuODYxNyAyMy45MiAyMi4xMjUgMjMuMTk0MiAyMi4xMjUgMjIuMjk1VjIxLjIxMTdDMjIuMTI1IDIwLjMyMzMgMjIuODUwOCAxOS41ODY3IDIzLjc1IDE5LjU4NjdIMzAuMjVDMzEuMTQ5MiAxOS41ODY3IDMxLjg3NSAyMC4zMTI1IDMxLjg3NSAyMS4yMTE3WiIgc3Ryb2tlPSIjMTBCMjU5IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yMi44MTQgMjguMTY2N0gyMi44MjdNMjYuOTk0NSAyOC4xNjY3SDI3LjAwNzVNMzEuMTc1MSAyOC4xNjY3SDMxLjE4ODFNMjIuODE0IDMxLjk1ODRIMjIuODI3TTI2Ljk5NDUgMzEuOTU4NEgyNy4wMDc1TTMxLjE3NTEgMzEuOTU4NEgzMS4xODgxIiBzdHJva2U9IiMxMEIyNTkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>Calculator</span>
@@ -154,7 +157,7 @@
                                 </a>
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0YwRjBGMCIvPgo8cGF0aCBkPSJNMjYuMjQ3OCAxMi40NTIxSDEzLjM3MjJDMTIuNDE0MSAxMi40NTIxIDExLjYzNSAxMy4xODU0IDExLjYzNSAxNC4wODcxVjI1LjUzMjFDMTEuNjM1IDI2LjQzMzkgMTIuNDE0MSAyNy4xNjcxIDEzLjM3MjIgMjcuMTY3MUgyNi4yNDc4QzI3LjIwNTkgMjcuMTY3MSAyNy45ODUgMjYuNDMzOSAyNy45ODUgMjUuNTMyMVYxNC4wODcxQzI3Ljk4NSAxMy4xODU0IDI3LjIwNTkgMTIuNDUyMSAyNi4yNDc4IDEyLjQ1MjFaTTI2LjI0NzggMjUuNTMyMUgxMy4zNzIyQzEzLjMyNTYgMjUuNTMyMSAxMy4yOTM3IDI1LjUxOTEgMTMuMjc5OCAyNS41MTkxQzEzLjI3NDEgMjUuNTE5MSAxMy4yNzA4IDI1LjUyMDcgMTMuMjcgMjUuNTI1NkwxMy4yNjAyIDE0LjEyNDhDMTMuMjY1OSAxNC4xMTY2IDEzLjMwMjcgMTQuMDg3MSAxMy4zNzIyIDE0LjA4NzFIMjYuMjQ3OEMyNi4zMTI0IDE0LjA4OCAyNi4zNDc2IDE0LjExIDI2LjM1IDE0LjA5MzdMMjYuMzU5OCAyNS40OTQ1QzI2LjM1NDEgMjUuNTAyNyAyNi4zMTczIDI1LjUzMjEgMjYuMjQ3OCAyNS41MzIxWiIgZmlsbD0iIzIyMjkzNiIvPgo8cGF0aCBkPSJNMTQuOTA1IDE1LjcyMjdIMTkuODFWMjAuNjI3N0gxNC45MDVWMTUuNzIyN1pNMjAuNjI3NSAyMi4yNjI3SDE0LjkwNVYyMy44OTc3SDI0LjcxNVYyMi4yNjI3SDIxLjQ0NUgyMC42Mjc1Wk0yMS40NDUgMTguOTkyN0gyNC43MTVWMjAuNjI3N0gyMS40NDVWMTguOTkyN1pNMjEuNDQ1IDE1LjcyMjdIMjQuNzE1VjE3LjM1NzdIMjEuNDQ1VjE1LjcyMjdaIiBmaWxsPSIjMjIyOTM2Ii8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjBDMCA4Ljk1NDMxIDguOTU0MzEgMCAyMCAwQzMxLjA0NTcgMCA0MCA4Ljk1NDMxIDQwIDIwQzQwIDMxLjA0NTcgMzEuMDQ1NyA0MCAyMCA0MEgwVjIwWiIgZmlsbD0iI0YwRjBGMCIvPgo8cGF0aCBkPSJNMjYuMjQ3OCAxMi40NTIxSDEzLjM3MjJDMTIuNDE0MSAxMi40NTIxIDExLjYzNSAxMy4xODU0IDExLjYzNSAxNC4wODcxVjI1LjUzMjFDMTEuNjM1IDI2LjQzMzkgMTIuNDE0MSAyNy4xNjcxIDEzLjM3MjIgMjcuMTY3MUgyNi4yNDc4QzI3LjIwNTkgMjcuMTY3MSAyNy45ODUgMjYuNDMzOSAyNy45ODUgMjUuNTMyMVYxNC4wODcxQzI3Ljk4NSAxMy4xODU0IDI3LjIwNTkgMTIuNDUyMSAyNi4yNDc4IDEyLjQ1MjFaTTI2LjI0NzggMjUuNTMyMUgxMy4zNzIyQzEzLjMyNTYgMjUuNTMyMSAxMy4yOTM3IDI1LjUxOTEgMTMuMjc5OCAyNS41MTkxQzEzLjI3NDEgMjUuNTE5MSAxMy4yNzA4IDI1LjUyMDcgMTMuMjcgMjUuNTI1NkwxMy4yNjAyIDE0LjEyNDhDMTMuMjY1OSAxNC4xMTY2IDEzLjMwMjcgMTQuMDg3MSAxMy4zNzIyIDE0LjA4NzFIMjYuMjQ3OEMyNi4zMTI0IDE0LjA4OCAyNi4zNDc2IDE0LjExIDI2LjM1IDE0LjA5MzdMMjYuMzU5OCAyNS40OTQ1QzI2LjM1NDEgMjUuNTAyNyAyNi4zMTczIDI1LjUzMjEgMjYuMjQ3OCAyNS41MzIxWiIgZmlsbD0iIzIyMjkzNiIvPgo8cGF0aCBkPSJNMTQuOTA1IDE1LjcyMjdIMTkuODFWMjAuNjI3N0gxNC45MDVWMTUuNzIyN1pNMjAuNjI3NSAyMi4yNjI3SDE0LjkwNVYyMy44OTc3SDI0LjcxNVYyMi4yNjI3SDIxLjQ0NUgyMC42Mjc1Wk0yMS40NDUgMTguOTkyN0gyNC43MTVWMjAuNjI3N0gyMS40NDVWMTguOTkyN1pNMjEuNDQ1IDE1LjcyMjdIMjQuNzE1VjE3LjM1NzdIMjEuNDQ1VjE1LjcyMjdaIiBmaWxsPSIjMjIyOTM2Ii8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>Newsletter</span>
@@ -163,7 +166,7 @@
 
                                 <a href="">
                                     <img class="images"
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTNGNUZGIi8+CjxwYXRoIGQ9Ik0xNy43OTE2IDMyLjUwMDFWMjAuNTgzNEMxNy43OTE2IDE2LjI1MDEgMTguODc1IDE1LjE2NjcgMjMuMjA4MyAxNS4xNjY3SDMwLjc5MTZDMzUuMTI1IDE1LjE2NjcgMzYuMjA4MyAxNi4yNTAxIDM2LjIwODMgMjAuNTgzNFYzMS40MTY3QzM2LjIwODMgMzEuNTY4NCAzNi4yMDgzIDMxLjcyMDEgMzYuMTk3NSAzMS44NzE3IiBzdHJva2U9IiMzMjk2RkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIyLjY2NjYgMjAuNTgzM0gzMS4zMzMzTTIyLjY2NjYgMjQuMzc0OUgyOC4wODMzTTIwLjg3OTEgMjkuMjQ5OUgzNi4yMDgzVjMzLjA0MTZDMzYuMjA4MyAzNS4xMzI0IDM0LjUwNzUgMzYuODMzMyAzMi40MTY2IDM2LjgzMzNIMjEuNTgzM0MxOS40OTI1IDM2LjgzMzMgMTcuNzkxNiAzNS4xMzI0IDE3Ljc5MTYgMzMuMDQxNlYzMi4zMzc0QzE3Ljc5MTYgMzAuNjM2NiAxOS4xNzgzIDI5LjI0OTkgMjAuODc5MSAyOS4yNDk5WiIgc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTNGNUZGIi8+CjxwYXRoIGQ9Ik0xNy43OTE2IDMyLjUwMDFWMjAuNTgzNEMxNy43OTE2IDE2LjI1MDEgMTguODc1IDE1LjE2NjcgMjMuMjA4MyAxNS4xNjY3SDMwLjc5MTZDMzUuMTI1IDE1LjE2NjcgMzYuMjA4MyAxNi4yNTAxIDM2LjIwODMgMjAuNTgzNFYzMS40MTY3QzM2LjIwODMgMzEuNTY4NCAzNi4yMDgzIDMxLjcyMDEgMzYuMTk3NSAzMS44NzE3IiBzdHJva2U9IiMzMjk2RkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIyLjY2NjYgMjAuNTgzM0gzMS4zMzMzTTIyLjY2NjYgMjQuMzc0OUgyOC4wODMzTTIwLjg3OTEgMjkuMjQ5OUgzNi4yMDgzVjMzLjA0MTZDMzYuMjA4MyAzNS4xMzI0IDM0LjUwNzUgMzYuODMzMyAzMi40MTY2IDM2LjgzMzNIMjEuNTgzM0MxOS40OTI1IDM2LjgzMzMgMTcuNzkxNiAzNS4xMzI0IDE3Ljc5MTYgMzMuMDQxNlYzMi4zMzc0QzE3Ljc5MTYgMzAuNjM2NiAxOS4xNzgzIDI5LjI0OTkgMjAuODc5MSAyOS4yNDk5WiIgc3Ryb2tlPSIjMzI5NkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
                                         alt="">
                                     <div>
                                         <span>E-book</span>
@@ -228,10 +231,10 @@
             </ul>
         </div>
     </div>
-
+    <!-- section1 -->
     <section style="width: 100%; height: fit-content; background-color: #f2f7f8;" class="section1">
-        <div class="container d-flex justify-content-center gap-5">
-            <div class="text p-lg-5 text-center">
+        <div style="gap: 9rem;" class="container landing  d-flex justify-content-center">
+            <div class="text">
                 <button style="color: white; font-weight: 500;" class="announcement">
                     <svg class="report-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -258,35 +261,36 @@
                 </button>
 
                 <h1 class="mb-2"
-                    style="max-width: 459px; line-height: 40px; font-size: 48px;margin: -20px 0px 0px; letter-spacing: -1.44px; line-height: 56px; font-weight: 700;">
+                    style="max-width: 459px; line-height: 40px; font-size: 48px;margin: -20px 0px 0px; letter-spacing: -1.44px; line-height: 56px; font-weight: 650;">
                     The Better Way to Save & Invest</h1>
 
-                <p class="mb-4"
-                    style="font-size:20px; line-height: 32px; letter-spacing: -0.48px; padding: 25px 0px 40px;font-weight: 400;">
+                <p class="mb-1"
+                    style="font-size:17px;  line-height: 32px; letter-spacing: -0.48px; padding: 25px 0px 40px;font-weight: 200;">
                     Piggyvest helps over 5 million customers<br> achieve their financial goals by
                     helping <br> them save and
                     invest with ease.</p>
 
-                <span class="">
-                    <button class="btn1 bb">
+                <div class="d-xl-flex gap-3">
+                    <button class="btn1 bb anime text-center">
                         <img src="https://storage.googleapis.com/new-abeg-avatar-dev/piggyvest-cms-staging/white_Apple_Logo_768cf7ce21/white_Apple_Logo_768cf7ce21.svg"
-                            width="20px" alt="">Get on iPhone
+                            width="18px" alt="">Get on iPhone
                     </button>
-                    <button class="btn1 bb">
+                    <button class="btn1 anime bb">
                         <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/google_icon_9867fc9be6/google_icon_9867fc9be6.svg"
-                            alt="">Get on Android
+                            alt="">
+                        Get on Android
                     </button>
-                </span>
+                </div>
 
             </div>
-            <div class="imgs ms-4">
+            <div class="imgs ms-lg-5 ms-4">
                 <img style="border-radius: 16px;" class="header"
                     src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/pexels_ketut_subiyanto_4350099_bc5e069ebe/pexels_ketut_subiyanto_4350099_bc5e069ebe.avif"
                     alt="" width="500px">
                 <div class="imgs2">
                     <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/SL_HP_Oct_b9f11b4df0/SL_HP_Oct_b9f11b4df0.png"
                         alt="" width="210px">
-                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/TS_HP_Oct_194c3b04f3/TS_HP_Oct_194c3b04f3.png"
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Frame_78_6aa483ac0a/Frame_78_6aa483ac0a.png"
                         alt="" width="210px">
                     <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Frame_79_49decc7ace/Frame_79_49decc7ace.png "
                         width="210px" alt="">
@@ -300,31 +304,39 @@
             </div>
         </div>
     </section>
-
+    <!-- section2 -->
     <section style="background-color: #f2f7f8;" class="investments security">
-        <div class="container">
-            <div class="d-lg-flex gap-2">
+        <div class="container mb-5 pt-5 /ps-5">
+            <div class="d-lg-flex gap-4">
                 <div class="d-lg-flex al-i-c">
-                    <div class="d-flex justify-content-center justify-content-lg-start ml-auto">
-                        <div>
+                    <div class="d-flex mb-5 justify-content-center justify-content-lg-start ml-auto">
+                        <div class="">
                             <img width="100px"
                                 src="https://storage.googleapis.com/new-abeg-avatar-dev/piggyvest-cms-staging/securitylock_7d5d97e5a1/securitylock_7d5d97e5a1.svg"
                                 alt="security icon">
                         </div>
                     </div>
                 </div>
-                <div style="max-width: 649px;" class="content">
-                    <h3>Your security is our priority</h3>
-                    <p class="mt-2">PiggyVest uses the highest level of Internet Security and it is secured by 256 bits
+                <div style="max-width: 700px; margin-top: 0px !important;" class="content d-flex flex-column security2">
+                    <h3 style="font-weight: 700; color: rgb(18, 34, 49); line-height: 33px;" class="mb-4 title">Your
+                        security is our priority</h3>
+                    <p style="font-size: 16px; max-width: 621px;" class="mt-2">PiggyVest uses the highest level of
+                        Internet Security and it is secured by 256 bits
                         SSL
                         security
                         encryption to ensure that your information is completely protected from fraud.</p>
-                    <div>
-                        <img src="./media/enter icon.png" alt="">
+                    <div class="d-flex gap-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 10L20 15L15 20" stroke="#122231" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path
+                                d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20"
+                                stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <h6 class="mt-2">
+                            More on our security measures
+                        </h6>
                     </div>
-                    <h6 class="mb-0">
-                        More on our security measures
-                    </h6>
                 </div>
                 <div>
                 </div>
@@ -332,42 +344,267 @@
         </div>
     </section>
 
-
+    <!-- section3 -->
     <section style="background-color: #f2f7f8;">
-        <div class="container pt-5">
+        <div class="container mb-5 pt-5">
             <div class="text-center">
                 <h3 class="title" style="font-size: 48px;">Many ways to build your savings</h3>
                 <p class="pt-2">Earn 12%-20% when you save with any of these Piggyvest plans.</p>
             </div>
-
-
-            <!-- features
-            <div class="main">
-                <div style="border-radius: 20px; width: 485px; height: 440px;" class="bg-white">
-                    <div>
+            <!-- features -->
+            <div class="main-cards d-flex">
+                <div class="bg-white box piggybank" style="border-radius: 20px;">
+                    <div class="d-flex">
                         <div>
-                            <h5>Automated Savings </h5>
+                            <h5 class="change"
+                                style="color: #003399; font-size: 36px; font-weight: 700; margin-top: 25px;">
+                                Automated Savings
+                            </h5>
+                            <p class="change"
+                                style="color:#3d4f60; max-width: 290px; min-width: 80px; font-weight: 400; font-size: 19px;">
+                                Build a dedicated savings faster on your terms,
+                                automatically or
+                                manually.</p>
+                        </div>
+                        <div class="img-card">
+                            <img class="phone" style="width: 240px;"
+                                src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/PB_MD_Oct_25_932caf9b0c/PB_MD_Oct_25_932caf9b0c.png"
+                                alt="phone-img">
                         </div>
                     </div>
-                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/PB_MD_Oct_25_932caf9b0c/PB_MD_Oct_25_932caf9b0c.png"
-                        width="100px" alt="">
+
+                </div>
+
+                <div class="bg-white box safelock" style="border-radius: 20px;">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="change"
+                                style="color: #3296ff; font-size: 36px; font-weight: 700; margin-top: 25px;">
+                                Fixed Savings
+
+                            </h5>
+                            <p class="change"
+                                style="color:#3d4f60; max-width: 290px; min-width: 80px; font-weight: 400; font-size: 18px;">
+                                Lock money away for a fixed duration without having access to it until maturity. It's
+                                like having a custom fixed deposit.</p>
+                        </div>
+                        <div class="img-card">
+                            <img class="phone" style="width: 240px;"
+                                src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/i_Phone_14_Oct_8_9133c0be74/i_Phone_14_Oct_8_9133c0be74.png"
+                                alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white box savings " style="border-radius: 20px;">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="change"
+                                style="color: #069b40; font-size: 36px; font-weight: 700; margin-top: 25px;">
+                                Goal-oriented Savings
+                            </h5>
+                            <p class="change"
+                                style="color:#3d4f60; max-width: 290px; min-width: 80px; font-weight: 400; font-size: 19px;">
+                                Reach all your savings goals faster. Save towards multiple goals on your own or with a
+                                group.</p>
+                        </div>
+                        <div class="img-card">
+                            <img class="phone" style="width: 240px;"
+                                src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/iphonw_a485f92ad1/iphonw_a485f92ad1.avif"
+                                alt="phone-img">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white box flexnaira1" style="border-radius: 20px;">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="change"
+                                style="color: #003399; font-size: 36px; font-weight: 700; margin-top: 25px;">
+                                Flex Naira
+                            </h5>
+                            <p class="change"
+                                style="color:#3d4f60; max-width: 290px; min-width: 80px; font-weight: 400; font-size: 19px;">
+                                Save, transfer, manage, organise, and withdraw your money at any time.</p>
+                        </div>
+                        <div class="img-card">
+                            <img class="phone" style="width: 240px;"
+                                src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/i_Phone_14_b4eaa3708a/i_Phone_14_b4eaa3708a.avif"
+                                alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-white box flexdollar" style="border-radius: 20px;">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="change"
+                                style="color: #003399; font-size: 36px; font-weight: 700; margin-top: 25px;">
+                                Flex Dollar
+                            </h5>
+                            <p class="change"
+                                style="color:#3d4f60; max-width: 290px; min-width: 80px; font-weight: 400; font-size: 19px;">
+                                Save and grow your money in foreign currencies such as Dollars.</p>
+                        </div>
+                        <div class="img-card">
+                            <img class="phone" style="width: 240px;"
+                                src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/i_Phone_14_b4eaa3708a/i_Phone_14_b4eaa3708a.avif"
+                                alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-white box flexnaira2" style="border-radius: 20px;">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="change"
+                                style="color: #003399; font-size: 36px; font-weight: 700; margin-top: 25px;">
+                                HouseMoney
+                            </h5>
+                            <p class="change"
+                                style="color:#3d4f60; max-width: 290px; min-width: 80px; font-weight: 400; font-size: 19px;">
+                                Plan for your rent and household expenses.</p>
+                        </div>
+                        <div class="img-card">
+                            <img class="phone" style="width: 240px;"
+                                src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/i_Phone_14_b4eaa3708a/i_Phone_14_b4eaa3708a.avif"
+                                alt="">
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
-        </div> -->
+        </div>
+    </section>
+
+    <!-- section4 -->
+    <section style="background-color: #fff; z-index: 100;">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h3 class="title" style="font-size: 48px;">
+                    Diverse ways to Invest
+                </h3>
+                <p style="font-weight: 450;" class="pt-1">Grow your money and invest for your future confidently.</p>
+
+            </div>
+            <div class="d-flex gap-5 flex-column flex-wrap overflow-hidden position-relative"
+                style=" background: #7913e5; border-radius: 30px; width: 100%; height: 500px; padding: 4rem; margin: 4rem 0;">
+                <div>
+                    <h4 style="color: #fff; font-weight: 700; font-size: 36px;" class="title">
+                        Earn Up to 35% returns
+                    </h4>
+                    <p class="texts"
+                        style="color:#fed6f1; max-width: 278px; font-weight: 400!important;  margin-top: 2rem;">Invest
+                        securely and confidently on the go. Grow your money confidently by investing in
+                        pre-vetted
+                        investment opportunities.</p>
+                </div>
+                <div class="">
+                    <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/iphone_Invest_d524b30868/iphone_Invest_d524b30868.avif"
+                        alt="" width="436px">
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <section style="background-color: #fff;">
         <div class="container pt-5">
             <div class="text-center">
                 <h3 class="title" style="font-size: 48px;">
-                    Diverse ways to Invest
+                    Meet Our Saver of the Month
                 </h3>
-                <p style="font-weight: 400;" class="pt-1">Grow your money and invest for your future confidently.</p>
+                <p style="font-weight: 450;" class="pt-1">Every month, we shine a spotlight on one saver, asking them
+                    about their savings culture and how Piggyvest has helped them..</p>
 
             </div>
-            <div style="background: #7913e5; border-radius: 30px;">
+            <div class=" d-flex justify-content-center">
+                <iframe autoplay loop class="video" width="853" height="480"
+                    src="https://www.youtube.com/embed/KBh-0o5hiIw"
+                    title="Piggyvest Saver of the Month - Joy Panam aka Lady J" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
+        </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container pt-5 d-none d-lg-block">
+            <div class=" pt-5 d-flex gap-5">
+                <div>
+                    <img src="./media/IMG-20251023-WA0006[1].jpg" width="400px" alt="">
+                </div>
+                <div class="d-none d-lg-block">
+                    <div class="testimonials container pt-5">
+                        <img width="60px" class="rounded-pill"
+                            src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img725396eb22.jpeg"
+                            alt="">
+                        <img width="60px" class="rounded-pill"
+                            src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img6ef4f48b4b.jpeg"
+                            alt="">
+                        <img width="60px" class="rounded-pill"
+                            src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img453cede493.jpeg"
+                            alt="">
+                        <img width="60px" class="rounded-pill"
+                            src="https://storage.googleapis.com/piggybankservice.appspot.com/_story_pics/img453cede493.jpeg"
+                            alt="">
+                    </div>
+                    <div>
+                        <h3 class="title" style="font-size: 35px; max-width: 440px;">Join 5+ million people who save and
+                            invest with us</h3>
+                        <span class="">
+                            <button class="btn1 bb">
+                                <img src="https://storage.googleapis.com/new-abeg-avatar-dev/piggyvest-cms-staging/white_Apple_Logo_768cf7ce21/white_Apple_Logo_768cf7ce21.svg"
+                                    width="20px" alt="">Get on iPhone
+                            </button>
+                            <button class="btn1 bb">
+                                <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/google_icon_9867fc9be6/google_icon_9867fc9be6.svg"
+                                    alt="">Get on Android
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-none d-lg-block">
+        <div class="container p-5">
+            <div class="text-center">
+                <h3 class="title" style="font-size: 28px;">
+                    As feautured In
+                </h3>
+            </div>
+
+            <div class="d-flex justify-content-evenly">
+                <img width="150px"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/tclogo_2x_e3771e8b17/tclogo_2x_e3771e8b17.png"
+                    alt="">
+                <img width="150px"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/output_9290be116f/output_9290be116f.png"
+                    alt="">
+                <img width="150px"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/brand1_b2a9805fff/brand1_b2a9805fff.png"
+                    alt="">
+                <img width="110px"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/pym_removebg_preview_109a666426/pym_removebg_preview_109a666426.svg"
+                    alt="">
+                <img width="110px"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/fast_61fdc50524/fast_61fdc50524.svg"
+                    alt="">
+                <img width="110px"
+                    src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/cio_6806ee3afd/cio_6806ee3afd.svg"
+                    alt="">
             </div>
         </div>
     </section>
